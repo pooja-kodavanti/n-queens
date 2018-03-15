@@ -203,8 +203,6 @@
         rowIndex = minorDiagonalColumnIndexAtFirstRow - (board.length - 1);
         colIndex = board.length - 1;
       }
-      console.log(rowIndex);
-      
       for(var i = rowIndex; i < board.length; i++) {
         if (board[i][colIndex] === 1) {
           count++;
